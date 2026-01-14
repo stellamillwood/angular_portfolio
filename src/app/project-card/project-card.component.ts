@@ -10,7 +10,7 @@ import { Router } from '@angular/router';
   selector: 'project-card',
   standalone: true,
   templateUrl: 'project-card.component.html',
-  styleUrl: 'project-card.component.css',
+  styleUrls: ['project-card.component.css'],
   imports: [MatCardModule, MatButtonModule],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
