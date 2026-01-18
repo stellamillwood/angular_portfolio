@@ -10,6 +10,6 @@ import { VerticalMenuComponent } from 'src/app/vertical-menu/vertical-menu.compo
   templateUrl: './agoodsite.component.html',
   styleUrls: ['./agoodsite.component.css'],
 })
-export class DesignSystemAGoodIdComponent {
+export class AGoodSiteComponent {
   project: Project = PROJECTS.find(p => p.route === "/projects/agoodsite")!;
   }

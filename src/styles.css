@@ -47,14 +47,26 @@ body {
 }
 
 .page-container img {
-  width: 100%;   /* never wider than container */
-  height: auto;      /* maintain aspect ratio */
-  display: block;    /* remove inline spacing */
-  margin: 1rem 0;    /* optional spacing */
+  width: 75%;
+  height: auto;
+  display: block;
+  margin: 1rem auto;   /* ← centers horizontally */
 }
+
 
 .page-container video {
   width: 100%;      /* fill container width */
   height: auto;     /* maintain aspect ratio */
   display: block;
+}
+
+.caption {
+  font-style: italic;
+}
+
+.clickable-card {
+  height: 24rem;       /* fixed height */
+  overflow: hidden;    /* cuts off extra text */
+  display: flex;
+  flex-direction: column;
 }

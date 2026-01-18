@@ -3,6 +3,29 @@
 <div class="page-container">
   <h1>{{ project.title }}</h1>
   <h2>{{ project.subtitle }}</h2>
-  <img [src]="project.image" />
   <p>{{ project.description }}</p>
+  <img [src]="project.image" />
+  <h2>What I did</h2>
+  <ul>
+    <li>Conducted design workshops with users and analyzed interview data</li>
+    <li>Designed a user interface and user journey in Figma</li>
+    <li>Developed the website’s front end through Javascript, HTML and CSS</li>
+    <li>Used Git to back up the website</li>
+    <li>Mounted sensors in the recycling room</li>
+  </ul> 
+  <img [src]="'assets/digital-stewardship/digital-stewardship-user-journey.png'" />
+  <p class="caption">This is a user journey I mapped for the system. It was work-in-progress as seen in the comments and questions.</p>
+  <img [src]="'assets/digital-stewardship/digital-stewardship-start.png'" />
+  <p class="caption">Wireframe of the start page with status of bin fullness in different recycling rooms, based on sensor data. Based on the status, the user could choose which recycling room to go to.</p>
+  <img [src]="'assets/digital-stewardship/digital-stewardship-wastepooling.png'" />
+  <p class="caption">Wireframes of the WastePooling page. This page allows users to coordinate pickups of bulky waste for the larger recycling center. This was designed in response to some users not owning a car, when the recycling center could only be accessed by car. </p>
+  <img [src]="'assets/digital-stewardship/digital-stewardship-start-refined.png'" />
+  <p class="caption">Refined Figma-version of the start page.</p>
+  <img [src]="'assets/digital-stewardship/digital-stewardship-start-expanded-refined.png'" />
+  <p class="caption">Refined Figma-version of the start page with the first room expanded with more details.</p>
+  <img [src]="'assets/digital-stewardship/digital-stewardship-wastepooling-refined.png'" />
+  <p class="caption">Refined Figma-version of the WastePooling page.</p>
+  <p>The final version of the website can be viewed and interacted with 
+    <a href="https://digitalstewardship.web.app/">here</a>
+    . Early on, the goal was to create a prototype for research purposes and not a fully developed website. With more time I would have liked to address the user experience of certain user groups better and used a more cohesive color scheme, font system and icons.</p>
 </div>
