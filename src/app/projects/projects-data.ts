@@ -15,10 +15,10 @@ export interface Project {
       route: "/projects/acdc"
     },
     {
-      title: "Design System in Figma",
-      subtitle: "Design System for Websites in Figma",
+      title: "AGoodSite",
+      subtitle: "AGoodId's design system created in Figma for their clients' websites",
       image: "assets/design-system-agoodid-logo.png",
-      description: "Design System for Websites in Figma",
+      description: "AGoodId is a Stockholm-based design bureau where I interned for five months in 2021. During my design internship, my main task was to create a design system for the company’s clientele. This was to ensure cohesive and efficient design processes, contributing to the successful execution of various digital projects. The internship lasted five months. ",
       route: "/projects/design-system-agoodid"
     },
     {
