@@ -1,0 +1,13 @@
+.image-row {
+    display: flex;
+    justify-content: center;   /* optional: center horizontally as a pair */
+    align-items: center;       /* centers images vertically */
+    gap: 1rem;                 /* spacing between images */
+}
+
+.image-row img {
+max-width: 100%;           /* responsive scaling */
+height: auto;              /* keep original aspect ratio */
+display: block;
+}
+  
