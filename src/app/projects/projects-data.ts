@@ -20,7 +20,7 @@ export interface Project {
       title: "AGoodSite",
       subtitle: "AGoodId's design system created in Figma for their clients' websites",
       image: "assets/agoodsite/agoodsite-logo.png",
-      description: "AGoodId is a Stockholm-based design bureau where I interned for five months in 2021. During my design internship, my main task was to create a design system for the company’s clientele. This was to ensure cohesive and efficient design processes, contributing to the successful execution of various digital projects. The internship lasted five months. ",
+      description: "AGoodId is a Stockholm-based design bureau where I completed a full-time, six-month design internship in 2021. My main assignment was to create a web-based design system for the company’s clients to ensure cohesive and efficient design processes across projects.",
       route: "/projects/agoodsite"
     },
     {
