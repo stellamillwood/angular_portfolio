@@ -30,7 +30,7 @@ body {
 
 .horizontal-menu {
   max-width: 65rem;       /* match your page container */
-  margin: 0 auto;         /* center horizontally */
+  margin: 0 auto;
   width: 100%;
   display: flex;          /* horizontal layout */
   align-items: center;    /* vertical alignment */

@@ -4,6 +4,7 @@ export interface Project {
     image: string;
     description: string;
     route: string;
+    hidden?: boolean;
   }
   
   export const PROJECTS: Project[] = [
@@ -12,7 +13,8 @@ export interface Project {
       subtitle: "Augmenting Complex and Dynamic (ACDC) is an augmented reality (AR) project on digital twins",
       image: "assets/acdc/acdc-logo.png",
       description: "In this project me and my team simulated people crossing an intersection in Kista Galleria. The simulation was created using Unity and Figma and could be interacted with using a tablet. By using a toolbar a user could, for example, pause the simulation and add more people to it. This project lasted 3 months in 2022 and was part of the course Design for Complex and Dynamic Contexts. ",
-      route: "/projects/acdc"
+      route: "/projects/acdc", 
+      hidden: true
     },
     {
       title: "AGoodSite",
