@@ -10,7 +10,7 @@ export interface Project {
   export const PROJECTS: Project[] = [
     {
       title: "ACDC",
-      subtitle: "Augmenting Complex and Dynamic (ACDC) is an augmented reality (AR) project on digital twins",
+      subtitle: "Augmenting Complex and Dynamic (ACDC) is an augmented reality (AR) project on digital twins.",
       image: "assets/acdc/acdc-logo.png",
       description: "In this project me and my team simulated people crossing an intersection in Kista Galleria. The simulation was created using Unity and Figma and could be interacted with using a tablet. By using a toolbar a user could, for example, pause the simulation and add more people to it. This project lasted 3 months in 2022 and was part of the course Design for Complex and Dynamic Contexts. ",
       route: "/projects/acdc", 
@@ -18,35 +18,35 @@ export interface Project {
     },
     {
       title: "AGoodSite",
-      subtitle: "AGoodId's design system created in Figma for their clients' websites",
+      subtitle: "AGoodId's design system created in Figma for their clients' websites.",
       image: "assets/agoodsite/agoodsite-logo.png",
       description: "AGoodId is a Stockholm-based design bureau where I completed a full-time, six-month design internship in 2021. My main assignment was to create a web-based design system for the company’s clients to ensure cohesive and efficient design processes across projects.",
       route: "/projects/agoodsite"
     },
     {
       title: "DigiPost",
-      subtitle: "AI identifies and categorizes citizens' incoming post to Swedish Public Emplyment Office and helps internal users handle them more efficiently.",
+      subtitle: "AI streamlines handling of citizens’ incoming post at Swedish Public Employment Office.",
       image: "assets/digi-post/digi-post-logo.png",
       description: "DigiPost",
       route: "/projects/digi-post"
     },
     {
         title: "Digital Stewardship",
-        subtitle: "Waste management research project with a web application",
+        subtitle: "Waste management research project with a web application.",
         image: "assets/digital-stewardship/digital-stewardship-logo.png",
         description: "Working as a research assistant at Stockholm University I was part of a team conducting an environmental study on how collective thinking and sensor data can be used in waste management. In my role I designed and front end-developed this website. The project’s duration was 3 years of which I participated for 10 months (2022-2023). ",
         route: "/projects/digital-stewardship"
       },
       {
         title: "Drop the Beat",
-        subtitle: "Music sharing mobile application with integrated augmented reality (AR)",
+        subtitle: "Music sharing mobile application with integrated augmented reality (AR).",
         image: "assets/drop-the-beat/drop-the-beat-logo.png",
         description: "This is an application that aims to connect people through music. It uses AR to allow users to explore their surroundings and find other users’ “dropped beats”. They click a virtual speaker, listen to the music while watching the speaker animation, and can afterwards choose whether to connect with the user through various social medias. The project’s duration was 2 months in 2021 and was part of the university course Introduction to Design for Creative and Immersive Technology. ",
         route: "/projects/drop-the-beat"
       },
       {
         title: "Flourish",
-        subtitle: "A task-based mobile application for improving mental wellness using simulated augmented reality (AR) for a growing plant",
+        subtitle: "A task-based mobile application for improving mental wellness using simulated augmented reality (AR) for a growing plant.",
         image: "assets/flourish/flourish-logo.png",
         description: "The application allows a user to complete daily tasks in order to improve their mental health during the covid-19-pandemic. As tasks are completed, the user’s own digital plant grows. The plant can be viewed in simulated AR. The project’s duration was 3 months in 2020 and was part of the university course Project Work in Interaction Design. ",
         route: "/projects/flourish"
@@ -74,7 +74,7 @@ export interface Project {
       }, 
       {
         title: "Tajma",
-        subtitle: "Time reporting web application used daily by thousands of users at Swedish Public Emplyment Office",
+        subtitle: "Time reporting web application used daily by thousands of users at Swedish Public Emplyment Office.",
         image: "assets/tajma/tajma-logo.png",
         description: "Tajma project description",
         route: "/projects/tajma"
