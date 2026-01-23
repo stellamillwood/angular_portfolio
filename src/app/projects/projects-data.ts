@@ -74,9 +74,9 @@ export interface Project {
       }, 
       {
         title: "Tajma",
-        subtitle: "Time reporting web application used daily by thousands of users at Swedish Public Emplyment Office.",
+        subtitle: "Time reporting tool used daily by thousands of users at Swedish Public Emplyment Office.",
         image: "assets/tajma/tajma-logo.png",
-        description: "Tajma project description",
+        description: "Tajma is a time-reporting tool for internal users at Swedish Public Employment Office. It is built as a web application in Angular",
         route: "/projects/tajma"
       }, 
       {
