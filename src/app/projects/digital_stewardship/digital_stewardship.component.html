@@ -3,29 +3,40 @@
   <h1>{{ project.title }}</h1>
   <h2>{{ project.subtitle }}</h2>
   <p>{{ project.description }}</p>
+
+  <h2>Context & Goal</h2>
+  <p>The research aimed to understand how real-time data (e.g., bin fullness) and peer coordination could influence recycling behavior, reduce 
+    contamination, and prevent waste overflow. The digital interface was one of several interventions tested in the field.</p>
   <img [src]="'assets/digital-stewardship/digital-stewardship-three-pages.png'"/>
-  <p class="caption">This is a user journey I mapped for the system. It was work-in-progress as seen in the comments and questions.</p>
-  <h2>What I did</h2>
+  <p class="caption">Final refined UI on mobile.</p>
+
+  <h2>My Contributions</h2>
   <ul>
-    <li>Conducted design workshops with users and analyzed interview data</li>
-    <li>Designed a user interface and user journey in Figma</li>
-    <li>Developed the website’s front end through Javascript, HTML and CSS</li>
-    <li>Used Git to back up the website</li>
-    <li>Mounted sensors in the recycling room</li>
-  </ul> 
+    <li>Co-ran design workshops and helped analyze interview data</li>
+    <li>Designed the interface and user journey in Figma</li>
+    <li>Developed the web front end using JavaScript, HTML, and CSS</li>
+    <li>Used Git for version control and backup</li>
+    <li>Mounted sensors and supported data connection to the interface</li>
+  </ul>
+
+  <h2>Research to Design</h2>
+  <p>Workshops highlighted two main challenges: (1) lack of visibility into bin status across different recycling rooms, causing unnecessary trips or 
+    overflow, and (2) difficulty transporting bulky waste to the larger recycling center, which was only accessible by car. These findings directly 
+    shaped the application's feature set.</p>
   <img [src]="'assets/digital-stewardship/digital-stewardship-user-journey.png'" class="img-border"/>
-  <p class="caption">This is a user journey I mapped for the system.</p>
+  <p class="caption">User journey for the application.</p>
+
+  <h2>Wireframes</h2>
   <img [src]="'assets/digital-stewardship/digital-stewardship-start.png'" class="img-border"/>
-  <p class="caption">Wireframe of the start page with status of bin fullness in different recycling rooms, based on sensor data. Based on the status, the user could choose which recycling room to go to.</p>
+  <p class="caption">Start page wireframe showing bin fullness from different rooms in real time. Users could select the most convenient room before leaving their apartment.</p>
   <img [src]="'assets/digital-stewardship/digital-stewardship-wastepooling.png'" class="img-border"/>
-  <p class="caption">Wireframe of the WastePooling page. This page allows users to coordinate pickups of bulky waste for the larger recycling center. This was designed in response to some users not owning a car, when the recycling center could only be accessed by car. </p>
+  <p class="caption">Wireframe for “WastePooling,” a feature allowing neighbors to coordinate shared trips for bulky waste disposal.</p>
+  
+  <h2>Refined UI</h2>
   <img [src]="'assets/digital-stewardship/digital-stewardship-start-refined.png'" class="img-border"/>
-  <p class="caption">Refined Figma-version of the start page.</p>
+  <p class="caption">Refined start page with sensor data.</p>
   <img [src]="'assets/digital-stewardship/digital-stewardship-start-expanded-refined.png'" class="img-border"/>
-  <p class="caption">Refined Figma-version of the start page with the first room expanded with more details.</p>
+  <p class="caption">Expanded view showing bin details.</p>
   <img [src]="'assets/digital-stewardship/digital-stewardship-wastepooling-refined.png'" class="img-border"/>
-  <p class="caption">Refined Figma-version of the WastePooling page.</p>
-  <p>The final version of the website can be viewed and interacted with 
-    <a href="https://digitalstewardship.web.app/">here</a>
-    . Early on, the goal was to create a prototype for research purposes and not a fully developed website. With more time I would have liked to address the user experience of certain user groups better and used a more cohesive color scheme, font system and icons.</p>
+  <p class="caption">Refined WastePooling UI.</p>
 </div>

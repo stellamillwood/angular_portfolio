@@ -16,13 +16,6 @@ export interface Project {
       route: "/projects/tajma"
     }, 
     {
-      title: "Digital Stewardship",
-      subtitle: "Waste management research project with a web application.",
-      image: "assets/digital-stewardship/digital-stewardship-logo.png",
-      description: "Working as a research assistant at Stockholm University I was part of a team conducting an environmental study on how collective thinking and sensor data can be used in waste management. In my role I designed and front end-developed this website. The project’s duration was 3 years of which I participated for 10 months (2022-2023). ",
-      route: "/projects/digital-stewardship"
-    },
-    {
       title: "Stella Budget & Prognos",
       subtitle: "Redesign of Swedish Public Emplyment Office's web application for budget and prognosis.",
       image: "assets/stella-budget-prognos/stella-budget-prognos-logo.png",
@@ -30,6 +23,20 @@ export interface Project {
       route: "/projects/stella-budget-prognos"
       
     }, 
+    {
+      title: "DigiPost",
+      subtitle: "AI streamlines handling of citizens’ incoming post at Swedish Public Employment Office.",
+      image: "assets/digi-post/digi-post-logo.png",
+      description: "DigiPost",
+      route: "/projects/digi-post"
+    },
+    {
+      title: "Digital Stewardship",
+      subtitle: "Web application for environmental sustainability research.",
+      image: "assets/digital-stewardship/digital-stewardship-logo.png",
+      description: "As a research assistant at Stockholm University I was part of a project exploring how collective action and sensor data can improve waste sorting in shared residential recycling rooms. I designed the digital interface for the study and developed the front end of the application. The project ran for 3 years; I participated for 10 months (2022–2023).",
+      route: "/projects/digital-stewardship"
+    },
     {
       title: "ACDC",
       subtitle: "Augmenting Complex and Dynamic (ACDC) is an augmented reality (AR) project on digital twins.",
@@ -45,14 +52,6 @@ export interface Project {
       description: "AGoodId is a Stockholm-based design bureau where I completed a full-time, six-month design internship in 2021. My main assignment was to create a web-based design system for the company’s clients to ensure cohesive and efficient design processes across projects.",
       route: "/projects/agoodsite"
     },
-    {
-      title: "DigiPost",
-      subtitle: "AI streamlines handling of citizens’ incoming post at Swedish Public Employment Office.",
-      image: "assets/digi-post/digi-post-logo.png",
-      description: "DigiPost",
-      route: "/projects/digi-post"
-    },
-    
     {
       title: "Drop the Beat",
       subtitle: "Music sharing mobile application with integrated augmented reality (AR).",
