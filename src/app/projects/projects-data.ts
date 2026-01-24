@@ -26,8 +26,9 @@ export interface Project {
       title: "Stella Budget & Prognos",
       subtitle: "Redesign of Swedish Public Emplyment Office's web application for budget and prognosis.",
       image: "assets/stella-budget-prognos/stella-budget-prognos-logo.png",
-      description: "The application is used at all organizational levels by business controllers, operations coodrinators and managers. I was tasked with redesigning it. The application's development lies externally, while I'm responsible for the application's UX",
+      description: "The budget & prognosis application is used across organizational levels by business controllers, operations coordinators, and managers. I was tasked with redesigning the application’s UX. The system is developed externally, while I am responsible for UX research, design direction, and stakeholder alignment.",
       route: "/projects/stella-budget-prognos"
+      
     }, 
     {
       title: "ACDC",
