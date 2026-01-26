@@ -68,9 +68,9 @@ export interface Project {
     },
     {
       title: "G-Force",
-      subtitle: "A virtual reality (VR) experience with tangible objects.",
+      subtitle: "A VR experience exploring sensory alignment with tangible objects.",
       image: "assets/g-force/g-force-logo.png",
-      description: "This is a VR-application designed with Unity, Figma and Arduino to help educate students about space through VR. Specifically, students can learn to compare the gravities of Mars and the Moon with Earth’s. They can explore this by kicking a soccer ball in different environments, and traveling through a wormhole to the next planet. The project’s duration was 3 months in 2022 and was part of the university course Designing for Emerging Technologies. ",
+      description: "G-Force is a VR experience where users kick a physical ball and see its motion mirrored in virtual reality. The ball behaves differently depending on the planet the user is on (Earth, Moon, or Mars), reflecting changes in gravity. Users can switch planets by interacting with a simple UI and traveling through a wormhole. The project was developed over 3 months in 2022 within the course Designing for Emerging Technologies.",
       route: "/projects/g-force"
     },
     {
