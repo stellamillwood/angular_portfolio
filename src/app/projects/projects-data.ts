@@ -32,9 +32,9 @@ export interface Project {
     },
     {
       title: "Digital Stewardship",
-      subtitle: "Web application for environmental sustainability research.",
+      subtitle: "Web Application for Environmental Sustainability Research",
       image: "assets/digital-stewardship/digital-stewardship-logo.png",
-      description: "As a research assistant at Stockholm University I was part of a project exploring how collective action and sensor data can improve waste sorting in shared residential recycling rooms. I designed the digital interface for the study and developed the front end of the application. The project ran for 3 years; I participated for 10 months (2022–2023).",
+      description: "Digital Stewardship was part of a research project at Stockholm University on improving waste sorting in shared residential recycling rooms. The work explored how digital tools and shared information could help residents coordinate and care for their recycling spaces. I developed a web interface for one of the design explorations and built its front end. The project ran for 3 years; I contributed for 10 months (2022–2023).",
       route: "/projects/digital-stewardship"
     },
     {
