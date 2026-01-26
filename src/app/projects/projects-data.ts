@@ -54,9 +54,9 @@ export interface Project {
     },
     {
       title: "Drop the Beat",
-      subtitle: "Music sharing mobile application with integrated augmented reality (AR).",
+      subtitle: "AR music-sharing concept for a more social campus",
       image: "assets/drop-the-beat/drop-the-beat-logo.png",
-      description: "This is an application that aims to connect people through music. It uses AR to allow users to explore their surroundings and find other users’ “dropped beats”. They click a virtual speaker, listen to the music while watching the speaker animation, and can afterwards choose whether to connect with the user through various social medias. The project’s duration was 2 months in 2021 and was part of the university course Introduction to Design for Creative and Immersive Technology. ",
+      description: "Drop the Beat is a playful AR concept that lets students “drop” music around campus for others to discover. The idea grew from exploring how hybrid study reduced spontaneous encounters at DSV, and how immersive tech could make campus feel more social again. Users could spot virtual speakers in AR, tap them to listen, watch them animate, and optionally connect with the creator through social platforms.<br><br>The project intentionally leans into novelty—AR isn’t needed to share music—but the medium made the experience spatial, surprising, and fun. It was developed during a 2-month university course in 2021 called <em>Introduction to Design for Creative and Immersive Technology</em>.",
       route: "/projects/drop-the-beat"
     },
     {
